@@ -1,0 +1,75 @@
+.branches{
+    background-image: url('../assets/branchesbg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(248, 17, 17);
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .img-placeholder{
+    width: 40%;
+    height: auto;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 5%;
+  }
+  .schoolimage{
+    width: 95%;
+    height: auto;
+    padding: 5%;
+    border-radius: 30px;
+  }
+  h1{
+    font-family: 'Rubik Bubbles';
+    color: #FFA500;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .branches{
+    background-image: url('../assets/branchesbg.png');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: rgb(248, 17, 17);
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img-placeholder{
+    width: 70%;
+    height: auto;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-top: 5%;
+  }
+  .schoolimage{
+    width: 95%;
+    height: auto;
+    padding: 5%;
+    border-radius: 30px;
+  }
+  h1{
+    font-family: 'Rubik Bubbles';
+    color: #FFA500;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+}
+}

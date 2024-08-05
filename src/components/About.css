@@ -1,0 +1,31 @@
+.title{
+    font-family: 'Rubik Bubbles';
+    color: #FFA500;
+    font-weight: bold;
+}
+.topic{
+    font-family: 'Rubik Bubbles';
+    color:#FFA500;
+}
+.description{
+    font-family: 'Rubik Bubbles';
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.introduce{
+    padding-left: 50px;
+    padding-bottom: 100px;
+}
+.imagesection{
+    margin-top: 50%;
+    align-items: center;
+    height:30%;
+    width: 40%;
+}
+
+}

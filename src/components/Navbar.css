@@ -1,0 +1,39 @@
+.logonav{
+    width: auto;
+    height: 250%;
+}
+
+.fontname{
+  font-family: 'Rubik Bubbles';
+}
+
+@media screen and (max-width: 768px) {
+/* Navbar.css */
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-menu.open {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FAFDFD; /* or any color that matches your design */
+    padding: 1rem;
+  }
+  
+ 
+    .nav-menu {
+      display: none;
+      font-family: 'Rubik Bubbles';
+      flex-direction: column;
+      align-items: start;
+      padding: 5px;
+    }
+  }
+  
