@@ -127,104 +127,10 @@ const Introduce = styled.div`
   }
 `;
 
-const Title = styled.div`
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1em;
-`;
 
 const Topic = styled.div`
   font-size: 4em;
   font-weight: 500;
-`;
-
-const Description = styled.div`
-  font-size: small;
-  color: #5559;
-`;
-
-const SeeMoreButton = styled.button`
-  font-family: Poppins;
-  margin-top: 1.2em;
-  padding: 5px 0;
-  border: none;
-  border-bottom: 1px solid #555;
-  background-color: transparent;
-  font-weight: bold;
-  letter-spacing: 3px;
-  transition: background 0.5s;
-
-  &:hover {
-    background: #eee;
-  }
-`;
-
-const Detail = styled.div`
-  opacity: 0;
-  pointer-events: none;
-
-  ${Carousel}.showDetail & {
-    ${Item}:nth-child(2) & {
-      opacity: 1;
-      pointer-events: auto;
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      overflow-y: scroll;
-    }
-
-    ${Item}:nth-child(2) ${ItemImage} {
-      right: -100%;
-    }
-
-    ${Item}:nth-child(2) ${Introduce} {
-      opacity: 0;
-      pointer-events: none;
-    }
-  }
-`;
-
-const DetailTitle = styled.div`
-  font-size: 3em;
-  font-weight: 500;
-  line-height: 1em;
-`;
-
-const DetailDescription = styled.div`
-  font-size: medium;
-  margin: 2em 0;
-`;
-
-const Specifications = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-`;
-
-const Specification = styled.div`
-  background-color: #5551;
-  padding: 0.5em;
-  border-radius: 10px;
-`;
-
-const SpecificationName = styled.p`
-  color: #5557;
-`;
-
-const CheckoutButton = styled.button`
-  border: none;
-  padding: 0.5em;
-  border-radius: 10px;
-  background: black;
-  color: white;
-  margin-right: 15px;
-  font-family: Poppins;
-  cursor: pointer;
-
-  &:nth-child(2) {
-    background-color: white;
-    color: black;
-  }
 `;
 
 const Arrows = styled.div`
