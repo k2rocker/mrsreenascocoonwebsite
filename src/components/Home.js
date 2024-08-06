@@ -1,9 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Home.css';
-import cutekidbg from '../assets/cutekidbg.png'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import curiosityimg from '../assets/curiosityimg.png';
 import Testimonials from './Testimonials';
