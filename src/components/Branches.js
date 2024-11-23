@@ -1,7 +1,7 @@
 import React from 'react';
 import './Branches.css';
 import schoolmouli from '../assets/schoolmouli.jpg'
-import schoolrama from '../assets/schoolrama.jpeg'
+import schoolrama from '../assets/schoolramapuram.jpg'
 import { motion } from 'framer-motion';
 
 const Branches = () => {
@@ -19,7 +19,7 @@ const Branches = () => {
           
               <motion.div initial={{X:100}}  className='img-placeholder'>
                 <a href="https://www.google.com/maps/dir/13.0435441,80.1540238/reena's+cocoon/@13.0361193,80.1451666,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3a5260d65984bc61:0x47e59584096ba7bb!2m2!1d80.1799668!2d13.0306693?entry=ttu">
-                  <img src={schoolmouli} alt='ramapuram school' className='schoolimage'/>
+                  <img src={schoolrama} alt='ramapuram school' className='schoolimage'/>
                   <h1>RAMAPURAM</h1>
                 </a>
               </motion.div>

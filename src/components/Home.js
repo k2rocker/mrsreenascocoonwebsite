@@ -41,14 +41,15 @@ const Home = () => {
                 <Carousel.Item>
                   <div className='insidecarousel'>
                     <h3>OUR MISSION</h3>
-                    <p>Hello all this is one of our mission</p>
+                    <p>At Mrs. Renna's Cocoon, we are committed to providing a well-rounded educational experience for children aged 2 and above. Our mission is to cultivate a passion for learning, help children explore their interests, and build the foundational skills necessary for their success in both academics and life.</p>
                     <p>_____________</p>
                   </div>
                 </Carousel.Item>
                 <Carousel.Item>
                   <div className='insidecarousel'>
                     <h3>OUR VISSION</h3>
-                    <p>Hello all this is one of our mission</p>
+                    <p>To nurture and empower young minds by fostering a holistic learning environment that encourages curiosity, creativity, and self-discovery, preparing children to thrive in a dynamic world.</p>
+                    <p>_____________</p>
                   </div>
                 </Carousel.Item>
               </Carousel>

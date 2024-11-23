@@ -1,7 +1,11 @@
 import React, { useEffect } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import cutekid from '../assets/cutekidbg.png';
-import cutekid2 from '../assets/cutekidbg2.png';
+import cutekid4 from '../assets/cutekidbg.png';
+import cutekid from '../assets/academicexcellence.png'
+//import cutekid2 from '../assets/cutekidbg2.png';
+import cutekid2 from '../assets/attention to each student.png'
+import cutekid3 from '../assets/tailormadelearning.png'
+//import cutekid4 from '../assets/extracurriculars.png'
 import Whybg from '../assets/whyBg.png';
 import { motion } from 'framer-motion';
 import './About.css';
@@ -197,7 +201,10 @@ const About = () => {
     };
   }, []);
 
-  const imageList = [[cutekid,"topic1","this is the first one"], [cutekid2,"topic2","this is the 2 one"], [cutekid,"topic3","this is the 3 one"], [cutekid2,"topic4","this is the 4 one"],[cutekid,"topic5","this is the first one"],[cutekid2,"topic6","this is the first one"]];
+  const imageList = [[cutekid,"Academic Excellence","At Reena’s Cocoon, we strive for academic excellence among our young learners. Through our unique teaching methods and attention to detail, each student flourishes to their full potential, exhibiting thorough reading, writing and speaking skills."],
+   [cutekid2,"Individual Attention","In order to improve the learning experience for each student, we ensure that one on one attention is provided.This enables us to ascertain the strengths, weaknesses and personal interests of the children in order to build up targeted areas. It also allows each child to discover their hobbies and their talents. "],
+   [cutekid3,"Tailor Made teaching","By giving each child focused attention, our qualified teachers and staff can figure out how they learn best. Whether it's through listening (songs, music, talking), seeing (images, graphs, videos), reading/writing (books, articles), or kinaesthetic (sports, games, activities), we make sure to adapt our teaching styles to fit each student."],
+   [cutekid4,"Extra Curriculars","At Reena’s Cocoon we not only rely on our academics to build our budding learners, but we also highly encourage extracurriculars. We allow each child to discover their hobbies and push them to pursue their interests through competitions and activities."]];
 
   return (
     <motion.div animate={{scale:1}} initial={{scale:0}} >

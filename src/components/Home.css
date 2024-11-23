@@ -112,7 +112,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    padding-left: 25%;
+    width: 80%;
   }
  
   .questions{
